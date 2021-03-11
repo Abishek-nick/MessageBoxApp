@@ -17,12 +17,12 @@ Dialog::~Dialog()
 
 void Dialog::on_pushButton_clicked()
 {
-    QMessageBox::information(this,"Samathmika 212218205044","THIS IS INFORMATION BOX");
+    QMessageBox::information(this,"abishek 212218104006","THIS IS INFORMATION BOX");
 }
 
 void Dialog::on_pushButton_2_clicked()
 {
-    QMessageBox::StandardButton reply=QMessageBox::question(this,"Abishekk 212218104007","Do you like apples?",QMessageBox::Yes | QMessageBox::No);
+    QMessageBox::StandardButton reply=QMessageBox::question(this,"Abishek 212218104006","Do you like apples?",QMessageBox::Yes | QMessageBox::No);
     if(reply == QMessageBox::Yes)
     {
         QMessageBox::information(this,"APPLE","Yes");
@@ -36,18 +36,18 @@ void Dialog::on_pushButton_2_clicked()
 
 void Dialog::on_pushButton_3_clicked()
 {
-    QMessageBox::StandardButton reply=QMessageBox::question(this,"Abishekk 212218104007","This is a custom message",QMessageBox::Yes | QMessageBox::YesToAll | QMessageBox::No | QMessageBox::NoToAll);
+    QMessageBox::StandardButton reply=QMessageBox::question(this,"Abishek 212218104006","This is a custom message",QMessageBox::Yes | QMessageBox::YesToAll | QMessageBox::No | QMessageBox::NoToAll);
     if(reply == QMessageBox::Yes)
     {
         qDebug() <<"Nothing is displayed";
     }
     if(reply == QMessageBox::YesToAll)
     {
-       QMessageBox::warning(this,"Abishekk 212218104007","Display the message with warning as YesToAll");
+       QMessageBox::warning(this,"Abishek 212218104006","Display the message with warning as YesToAll");
     }
     if(reply == QMessageBox::NoToAll)
     {
-       QMessageBox::warning(this,"Abishekk 212218104007","Don't Display the message with warning as YesToAll");
+       QMessageBox::warning(this,"Abishek 212218104006","Don't Display the message with warning as YesToAll");
     }
 
 
@@ -55,5 +55,5 @@ void Dialog::on_pushButton_3_clicked()
 
 void Dialog::on_pushButton_4_clicked()
 {
-    QMessageBox::warning(this,"Abishekk 212218104007","This is a warning message");
+    QMessageBox::warning(this,"Abishek 212218104006","This is a warning message");
 }
